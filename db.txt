@@ -1,0 +1,13 @@
+CREATE TABLE usuario (
+    id INT AUTO_INCREMENT PRIMARY KEY,      -- ID autoincrementable
+    dni VARCHAR(20) NOT NULL,               -- DNI del usuario
+    nombre VARCHAR(50) NOT NULL,            -- Nombre del usuario
+    apellido VARCHAR(50) NOT NULL,          -- Apellido del usuario
+    correo VARCHAR(100) NOT NULL,           -- Correo electrónico
+    telefono VARCHAR(20),                    -- Teléfono del usuario
+    contrasena VARCHAR(255) NOT NULL,       -- Contraseña del usuario
+    genero INT,                              -- Género del usuario (puedes ajustar el tipo si es necesario)
+    estado INT,                              -- Estado del usuario (puedes definir qué valores representa)
+    role INT,                                -- Rol del usuario (puedes definir qué valores representa)
+    fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP -- Fecha de creación
+);
