@@ -15,12 +15,12 @@
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     </head>
-    <body class="text-bg-secondary">
+    <body class="text-bg-tertiary-color">
         <nav class="navbar navbar-expand-lg navbar-light bg-warning p-3">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                   <img src="img/epps.png" alt="Logo" width="40" height="30" class="d-inline-block align-text-top">
-                    Mi Empresa
+                    CORPORATION FOR INDUSTRY
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -70,6 +70,9 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
+                        <div class="text-center mb-3">
+                    <img src="img/login.jpg" alt="Login" class="img-fluid" style="max-height: 200px;">
+                         </div>
                         <form method="POST" action="ValidacionLogin">
                             <div class="mb-3">
                                 <label for="email" class="form-label">Numero Documento De Identidad</label>
@@ -92,11 +95,20 @@
                 </div>
             </div>
         </div>
-
-
+       <br><br>
+       <script>
+        document.body.style.backgroundImage = "url('img/fondo2.jpg')";
+        document.body.style.backgroundSize = "cover"; // Para cubrir toda la página
+        document.body.style.backgroundRepeat = "no-repeat"; // Evita que la imagen se repita
+        document.body.style.backgroundPosition = "center"; // Centra la imagen
+                </script>
+                <div class="text-center mb-3">
+                    <img src="img/epps.png" alt="Login" class="img-fluid" style="max-height: 200px;">
+                    <h2 class="text-center mb-4" style="font-size: 24px">Somos Corporation For Industry y ofrecemos los mejores equipos de proteccion personal</h2>
+                </div>
         <div class="container mt-5">
             <h2 class="text-center mb-4">Nuestros Productos</h2>
-
+   
             <!-- Carousel de Productos -->
             <div id="carouselProductos" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -105,11 +117,11 @@
                     <div class="carousel-item active">
                         <div class="row justify-content-center">
                             <div class="col-md-3">
-                                <div class="card">
+                                <div class="card" class="opacity-25">
                                     <img src="img/calzado.jpeg" class="card-img-top" alt="Producto 1">
                                     <div class="card-body text-center">
-                                        <h5 class="card-title">Producto 1</h5>
-                                        <p class="card-text">$25.00</p>
+                                        <h5 class="card-title">Botas Punto Acero</h5>
+                                        <p class="card-text">S/. 25.00</p>
                                         <button class="btn btn-primary">Comprar</button>
                                     </div>
                                 </div>
@@ -118,7 +130,7 @@
                                 <div class="card">
                                     <img src="img/guantes.jpeg" class="card-img-top" alt="Producto 2">
                                     <div class="card-body text-center">
-                                        <h5 class="card-title">Producto 2</h5>
+                                        <h5 class="card-title">Guantes de Cuero</h5>
                                         <p class="card-text">$30.00</p>
                                         <button class="btn btn-primary">Comprar</button>
                                     </div>
@@ -128,8 +140,8 @@
                                 <div class="card">
                                     <img src="img/chalecos.jpeg" class="card-img-top" alt="Producto 3">
                                     <div class="card-body text-center">
-                                        <h5 class="card-title">Producto 3</h5>
-                                        <p class="card-text">$40.00</p>
+                                        <h5 class="card-title">Chalecos</h5>
+                                        <p class="card-text">S/. 40.00</p>
                                         <button class="btn btn-primary">Comprar</button>
                                     </div>
                                 </div>
@@ -142,10 +154,10 @@
                         <div class="row justify-content-center">
                             <div class="col-md-3">
                                 <div class="card">
-                                    <img src="casco.jpg" class="card-img-top" alt="Producto 4">
+                                    <img src="img/casco.jpg" class="card-img-top" alt="Producto 4">
                                     <div class="card-body text-center">
-                                        <h5 class="card-title">Producto 4</h5>
-                                        <p class="card-text">$50.00</p>
+                                        <h5 class="card-title">Casco</h5>
+                                        <p class="card-text">S/. 50.00</p>
                                         <button class="btn btn-primary">Comprar</button>
                                     </div>
                                 </div>
@@ -154,18 +166,18 @@
                                 <div class="card">
                                     <img src="img/uniformes.jpeg" class="card-img-top" alt="Producto 5">
                                     <div class="card-body text-center">
-                                        <h5 class="card-title">Producto 5</h5>
-                                        <p class="card-text">$20.00</p>
+                                        <h5 class="card-title">Uniforme</h5>
+                                        <p class="card-text">S/. 20.00</p>
                                         <button class="btn btn-primary">Comprar</button>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="card">
-                                    <img src="https://via.placeholder.com/200x200" class="card-img-top" alt="Producto 6">
+                                    <img src="img/lentes.jpeg" class="card-img-top" alt="Producto 6">
                                     <div class="card-body text-center">
-                                        <h5 class="card-title">Producto 6</h5>
-                                        <p class="card-text">$35.00</p>
+                                        <h5 class="card-title">Lentes</h5>
+                                        <p class="card-text">S/. 35.00</p>
                                         <button class="btn btn-primary">Comprar</button>
                                     </div>
                                 </div>
